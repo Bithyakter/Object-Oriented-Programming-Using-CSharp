@@ -2,33 +2,33 @@
 
 Learn Object Oriented Programming(OOP) Using C# with Examples
 
-OOP Topics Cover:
-  1. Classes & Objects
-  2. Method & Constructor
-  3. Encapsulation
-  4. Inheritance
-  5. Polymorphism
-  6. Interfaces
-  7. Access Modifier
+	OOP Topics Cover:
+	  1. Classes & Objects
+ 	 2. Method & Constructor
+	  3. Encapsulation
+ 	 4. Inheritance
+ 	 5. Polymorphism
+ 	 6. Interfaces
+ 	 7. Access Modifier
   
- ===============================Classes & Objects===============================
+    ===============================Classes & Objects===============================
  
-  In object -oriented programming, a class defines some properties, fields, events, methods, etc.
-  Object is an entity that has state and behavior. Here, state means data and behavior means functionality.
+    In object -oriented programming, a class defines some properties, fields, events, methods, etc.
+    Object is an entity that has state and behavior. Here, state means data and behavior means functionality.
   
-  ===============================Access Modifier===============================
+    ===============================Access Modifier===============================
   
-  Access Modifiers in C# are the keywords used to define the visibility of a class property or method.
-  C# has 5 Access Modifier keywords
-   1. public: Public class is visible in the current and referencing assembly.
-   2. private: Visible inside current class.
-   3. protected: Visible inside current and derived class.
-   4. Internal: Visible inside containing assembly.
-   5. Internal protected: Visible inside containing assembly and descendent of thecurrent class.
+    Access Modifiers in C# are the keywords used to define the visibility of a class property or method.
+	  C# has 5 Access Modifier keywords
+	   1. public: Public class is visible in the current and referencing assembly.
+	   2. private: Visible inside current class.
+	   3. protected: Visible inside current and derived class.
+	   4. Internal: Visible inside containing assembly.
+	   5. Internal protected: Visible inside containing assembly and descendent of thecurrent class.
   
-  ===================================Method====================================
+    ===================================Method====================================
   
-  Method are also called function. Method are useful because it allow us to define our logic once and use it at many places.
+    Method are also called function. Method are useful because it allow us to define our logic once and use it at many places.
   
     Syntax:
       accessModifier returnType methodName(parameters)
@@ -36,16 +36,16 @@ OOP Topics Cover:
         //Method Body
       }
   
-  ===============================Constructor================================
+    ===============================Constructor================================
   
-  A constructor is a special type of Method with no return type. A constructor is called automatically when we create an object of a class. 
-  *Method that Same Name of Class Name 
-  *Don't have return type, so don't return values 
-  *Access modifier can be used 
-  *No need to call constructor, It invoked when objects get created 
-  *It initialize member variables of a Class 
-  *you can declare more than one constructor in a class 
-  *Constructor can be Overloaded
+    A constructor is a special type of Method with no return type. A constructor is called automatically when we create an object of a class. 
+	  *Method that Same Name of Class Name 
+	  *Don't have return type, so don't return values 
+	  *Access modifier can be used 
+	  *No need to call constructor, It invoked when objects get created 
+	  *It initialize member variables of a Class 
+	  *you can declare more than one constructor in a class 
+	  *Constructor can be Overloaded
         
     ===============================Inheritance==============================
     
@@ -81,7 +81,7 @@ OOP Topics Cover:
         3.Method should have same Parameters    
         4.There should be Inheritance between Class
         
-  ==================================Interfaces=============================== 
+    ==================================Interfaces=============================== 
   
     Interface is look like a class but it has no implementation, they simply declaration.
      *It cann't have Method Body. 
