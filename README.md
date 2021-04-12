@@ -29,6 +29,7 @@ OOP Topics Cover:
   ===================================Method====================================
   
   Method are also called function. Method are useful because it allow us to define our logic once and use it at many places.
+  
     Syntax:
       accessModifier returnType methodName(parameters)
       {
@@ -37,27 +38,27 @@ OOP Topics Cover:
   
   ===============================Constructor================================
   A constructor is a special type of Method with no return type. A constructor is called automatically when we create an object of a class. 
-  * Method that Same Name of Class Name 
-  * Don't have return type, so don't return values 
-  * Access modifier can be used 
-  * No need to call constructor, It invoked when objects get created 
-  * It initialize member variables of a Class 
-  * you can declare more than one constructor in a class 
-  * Constructor can be Overloaded
+  *Method that Same Name of Class Name 
+  *Don't have return type, so don't return values 
+  *Access modifier can be used 
+  *No need to call constructor, It invoked when objects get created 
+  *It initialize member variables of a Class 
+  *you can declare more than one constructor in a class 
+  *Constructor can be Overloaded
         
     ===============================Inheritance==============================
     
     Inheritance is a process of inheriting the properties and behaviour of existing class into New class.
-     
-    SYNTAX :
-        class <Parent Class>
-            {
-                //variables or Method
-            }
-        class <child class>:<parent class>
-            {
-                ///variables or Method
-            }
+    
+	    SYNTAX :
+		class <Parent Class>
+		    {
+			//variables or Method
+		    }
+		class <child class>:<parent class>
+		    {
+			///variables or Method
+		    }
  
        Method Hiding:
             *  Use the 'new' keyword to hide a base class members.
@@ -67,10 +68,11 @@ OOP Topics Cover:
     
     Polymorphism provides the ability to a class to have multiple implementation with the same name
 		
-     1. Static/Compile Time - (Method Overloading)     
-     2. Dynamic/Runtime - (Method Overriding)
-     * Method Overriding Canbe done by usign Inheritance
-     * With method overriding, we can override the method of ParentClass with same method of ChildClass
+	     1. Static/Compile Time - (Method Overloading)     
+	     2. Dynamic/Runtime - (Method Overriding)
+	     
+	     * Method Overriding Can be done by usign Inheritance
+	     * With method overriding, we can override the method of ParentClass with same method of ChildClass
      
      #Conditions For Method Overriding:
         1.All Method Name should same           
@@ -81,9 +83,9 @@ OOP Topics Cover:
   ==================================Interfaces=============================== 
     Interface is look like a class but it has no implementation, they simply declaration.
      *It cann't have Method Body. 
-     * We cann't create an instance of an Interface
-     * Class can inherite Multiple interface at the same time
-     * Interfaces can inherite from others Interfaces
+     *We cann't create an instance of an Interface
+     *Class can inherite Multiple interface at the same time
+     *Interfaces can inherite from others Interfaces
      
      Restrictions:
         1.Not allowed to define any fields,not even static fields
