@@ -25,7 +25,6 @@ OOP Topics Cover:
    4. Internal: Visible inside containing assembly.
    5. Internal protected: Visible inside containing assembly and descendent of thecurrent class.
   
-  
   ===============================================Method================================================
   
   Method are also called function. Method are useful because it allow us to define our logic once and use it at many places.
