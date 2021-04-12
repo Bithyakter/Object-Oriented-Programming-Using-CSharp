@@ -91,6 +91,36 @@ OOP Topics Cover:
         3.Cann't specify any access Modifier, implicitly public
         4.Not allowed to inherite from a  class/structure
     
-    
+  ===========================================Classes & Objects===========================================
+  In object -oriented programming, a class defines some properties, fields, events, methods, etc. 
+  Object is an entity that has state and behavior. Here, state means data and behavior means functionality.
+
+  ===========================================Access Modifier===========================================
+
+  Access Modifiers in C# are the keywords used to define the visibility of a class property or method. C# has 5 Access Modifier keywords
+
+  public: Public class is visible in the current and referencing assembly.
+  private: Visible inside current class.
+  protected: Visible inside current and derived class.
+  Internal: Visible inside containing assembly.
+  Internal protected: Visible inside containing assembly and descendent of thecurrent class.
+  
+  ===============================================Method================================================
+  Method are also called function. Method are useful because it allow us to define our logic once and use it at many places. 
+  Syntax: 
+    accessModifier returnType methodName(parameters)
+    { 
+      //Method Body
+    }
+
+  ===========================================Constructor============================================
+  A constructor is a special type of Method with no return type. A constructor is called automatically when we create an object of a class. 
+  * Method that Same Name of Class Name 
+  * Don't have return type, so don't return values 
+  * Access modifier can be used 
+  * No need to call constructor, It invoked when objects get created 
+  * It initialize member variables of a Class 
+  * you can declare more than one constructor in a class 
+  * Constructor can be Overloaded
         
         
