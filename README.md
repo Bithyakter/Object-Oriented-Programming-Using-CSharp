@@ -12,6 +12,7 @@ OOP Topics Cover:
   7. Access Modifier
   
   ==================Classes & Objects====================
+  
   In object-oriented programming, a class defines some properties, fields, events, methods, etc.
   Object is an entity that has state and behavior. Here, state means data and behavior means functionality.
     
