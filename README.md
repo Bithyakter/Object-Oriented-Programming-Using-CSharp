@@ -80,10 +80,11 @@ OOP Topics Cover:
         
   ==================================Interfaces=============================== 
     Interface is look like a class but it has no implementation, they simply declaration.
-     * It cann't have Method Body. 
+     *It cann't have Method Body. 
      * We cann't create an instance of an Interface
      * Class can inherite Multiple interface at the same time
      * Interfaces can inherite from others Interfaces
+     
      Restrictions:
         1.Not allowed to define any fields,not even static fields
         2.Not allowed to define any constructor/desturctor in interafce
