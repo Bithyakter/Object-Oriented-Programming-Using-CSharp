@@ -81,6 +81,7 @@ OOP Topics Cover:
         4.There should be Inheritance between Class
         
   ==================================Interfaces=============================== 
+  
     Interface is look like a class but it has no implementation, they simply declaration.
      *It cann't have Method Body. 
      *We cann't create an instance of an Interface
