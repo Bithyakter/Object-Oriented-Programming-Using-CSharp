@@ -11,11 +11,12 @@ OOP Topics Cover:
   6. Interfaces
   7. Access Modifier
   
- ===========================================Classes & Objects===========================================
+ ===============================Classes & Objects===============================
+ 
   In object -oriented programming, a class defines some properties, fields, events, methods, etc.
   Object is an entity that has state and behavior. Here, state means data and behavior means functionality.
   
-  ===========================================Access Modifier===========================================
+  ===============================Access Modifier===============================
   
   Access Modifiers in C# are the keywords used to define the visibility of a class property or method.
   C# has 5 Access Modifier keywords
@@ -25,7 +26,7 @@ OOP Topics Cover:
    4. Internal: Visible inside containing assembly.
    5. Internal protected: Visible inside containing assembly and descendent of thecurrent class.
   
-  ===============================================Method================================================
+  ===================================Method====================================
   
   Method are also called function. Method are useful because it allow us to define our logic once and use it at many places.
     Syntax:
@@ -34,7 +35,7 @@ OOP Topics Cover:
         //Method Body
       }
   
-  ===========================================Constructor============================================
+  ===============================Constructor================================
   A constructor is a special type of Method with no return type. A constructor is called automatically when we create an object of a class. 
   * Method that Same Name of Class Name 
   * Don't have return type, so don't return values 
@@ -44,7 +45,7 @@ OOP Topics Cover:
   * you can declare more than one constructor in a class 
   * Constructor can be Overloaded
         
-    ===========================================Inheritance===========================================
+    ===============================Inheritance==============================
     
     Inheritance is a process of inheriting the properties and behaviour of existing class into New class.
      
@@ -62,10 +63,10 @@ OOP Topics Cover:
             *  Use the 'new' keyword to hide a base class members.
             *  Also you can use the 'base' keyword to call the hidden base class members.
        
-    ===========================================Polymorphism===========================================
+    ===============================Polymorphism===============================
     
     Polymorphism provides the ability to a class to have multiple implementation with the same name
-     
+		
      1. Static/Compile Time - (Method Overloading)     
      2. Dynamic/Runtime - (Method Overriding)
      * Method Overriding Canbe done by usign Inheritance
@@ -77,7 +78,7 @@ OOP Topics Cover:
         3.Method should have same Parameters    
         4.There should be Inheritance between Class
         
-    ===========================================Interfaces=========================================== 
+  ==================================Interfaces=============================== 
     Interface is look like a class but it has no implementation, they simply declaration.
      * It cann't have Method Body. 
      * We cann't create an instance of an Interface
