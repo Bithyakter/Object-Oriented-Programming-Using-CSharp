@@ -28,7 +28,8 @@ Learn Object Oriented Programming(OOP) Using C# with Examples
   
     ===================================Method====================================
   
-    Method are also called function. Method are useful because it allow us to define our logic once and use it at many places.
+    Method are also called function. 
+    Method are useful because it allow us to define our logic once and use it at many places.
   
     Syntax:
       accessModifier returnType methodName(parameters)
