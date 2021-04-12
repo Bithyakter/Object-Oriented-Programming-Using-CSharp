@@ -3,9 +3,9 @@
 Learn Object Oriented Programming(OOP) Using C# with Examples
 
 	OOP Topics Cover:
-	  1. Classes & Objects
+	 1. Classes & Objects
  	 2. Method & Constructor
-	  3. Encapsulation
+	 3. Encapsulation
  	 4. Inheritance
  	 5. Polymorphism
  	 6. Interfaces
