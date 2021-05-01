@@ -50,22 +50,33 @@ Learn Object Oriented Programming(OOP) Using C# with Examples
 	  *Constructor can be Overloaded
         
     ===============================Inheritance==============================
+  
+      Inheritance is a process of inheriting the properties and behaviour of existing class into New class.
+      SYNTAX :
+          class <Parent Class>
+              {
+                  //variables or Method
+              }
+          class <child class>:<parent class>
+              {
+                  ///variables or Method
+              }
+      1. Single Inheritance > Only One Parent class and Child Class
+      2. Multilevel > 
+      3. Hierarchical > One parent class bt more than child class 
+      4. Multiple > Not Possible
+      5. Hybrid > Not Possible
+          //Single Inheritance  //Multilevel          //Hierarchical
+          Class A               Class A               Class A
+           {                     {                      {  
+           }                     }                      } 
+          Class B:A             Class B:A              Class B:A 
+            {                    {                      {  
+            }                    }                      }  
+                                Class C:B               Class B:A  
+                                 {                        {
+                                 }                        }
     
-    Inheritance is a process of inheriting the properties and behaviour of existing class into New class.
-    
-	    SYNTAX :
-		class <Parent Class>
-		    {
-			//variables or Method
-		    }
-		class <child class>:<parent class>
-		    {
-			///variables or Method
-		    }
- 
-       Method Hiding:
-            *  Use the 'new' keyword to hide a base class members.
-            *  Also you can use the 'base' keyword to call the hidden base class members.
        
     ===============================Polymorphism===============================
     
