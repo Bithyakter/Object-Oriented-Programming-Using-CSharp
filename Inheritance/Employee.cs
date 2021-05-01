@@ -31,7 +31,7 @@ namespace Inheritance
 
     //public class FullTimeEmployee : Employee
     //{
-    //    public new void PrintFullName()     ///to hide the base class members
+    //    public new void PrintFullName()     //to hide the base class members
     //    {
     //        base.PrintFullName();       //invoked hidden base class members
     //    }
@@ -53,9 +53,10 @@ namespace Inheritance
             fullTime.PrintFullName();
 
             /* For Method Hiding */
-            //((Employee)fullTime).PrintFullName();   //Cast childtype to parenttype and invoked baseclass members
-            //Employee emp = new FullTimeEmployee();
-            //emp.PrintFullName();
+            ((Employee)fullTime).PrintFullName();   //Cast childtype to parenttype and invoked baseclass members
+
+            Employee emp = new FullTimeEmployee();
+            emp.PrintFullName();
 
             Console.WriteLine("------------------------------------------");
             ChildClass CClass = new ChildClass();
@@ -63,7 +64,7 @@ namespace Inheritance
             Console.ReadKey();
         }
     }
-    
+
     /*=======================================================================*/
     public class ParentClass
     {

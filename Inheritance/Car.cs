@@ -2,19 +2,6 @@
 
 namespace Inheritance
 {
-    /*=====================================================================================================
-     * Inheritance is a process of inheriting the properties and behaviour of existing class into New class.
-     
-    SYNTAX :
-        class <Parent Class>
-            {
-                //variables or Method
-            }
-        class <child class>:<parent class>
-            {
-                ///variables or Method
-            }
-       =======================================================================================================*/
     public class Car    //Parent or Base Class
     {
         public string Model;
@@ -29,7 +16,7 @@ namespace Inheritance
         }
     }
 
-    public class Toyota:Car     //Single Inheritance
+    public class Toyota: Car     //Drived class, //Single Inheritance
     {
         public int Speed;
 
@@ -39,14 +26,14 @@ namespace Inheritance
         }
     }
 
-    public class Ferrari: Car      //Hierarchical Inheritance
+    public class Ferrari : Car      //Hierarchical Inheritance
     {
         public int Wheel;
         public int MakeYear;
 
         public void PrintFerrari()
         {
-            Console.WriteLine("Wheel: "+Wheel);
+            Console.WriteLine("Wheel: " + Wheel);
             Console.WriteLine("Making Year: " + MakeYear);
         }
     }
@@ -67,7 +54,9 @@ namespace Inheritance
         //    myCar.Model = "Toy XI";
         //    myCar.Color = "Black";
         //    myCar.Price = 3000000;
+
         //    myCar.mileage = 21.5f;
+
         //    myCar.Speed = 80;
         //    //myCar.Wheel = 3;    //Cann't inherite Ferrari class properties
 

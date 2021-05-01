@@ -13,6 +13,7 @@ namespace Array_List
             #region Array
             /*======================
                 Array is a Collection of similar data type
+
                 Syntax:
                     datatype[] name of arrayvariable
             ======================*/
@@ -23,16 +24,16 @@ namespace Array_List
 
             Console.WriteLine(cars[3]);     //can access array elements with index value
 
-            //you can access multiple array elements with help of for loop & foreach
-            for (int i = 0; i < cars.Length; i++)
-            {
-                Console.WriteLine(cars[i]);
-            }
+            ////you can access multiple array elements with help of for loop & foreach
+            //for (int i = 0; i < cars.Length; i++)
+            //        {
+            //            Console.WriteLine(cars[i]);
+            //        }
 
-            foreach (string car in cars)
-            {
-                Console.WriteLine(car);
-            }
+            //foreach (string car in cars)
+            //{
+            //    Console.WriteLine(car);
+            //}
             #endregion
 
             #region List
@@ -42,6 +43,7 @@ namespace Array_List
                     list<datatype> nameOfList = new list<datatype>();
             ======================*/
             List<string> vehicles = new List<string>();
+
             vehicles.Add("Ferrari");
             vehicles.Add("BMW");
             vehicles.Add("Maruti");
@@ -58,57 +60,60 @@ namespace Array_List
             }
             #endregion
 
-            Console.WriteLine("Single Dimension Array Sample");
-            // Single dimensional array  
-            string[] friends = new string[] 
-              {
-                    "Mst Bithy",
-                    "Shammi",
-                    "Nafiya Nitu",
-                    "Suparna Sarker",
-                    "Rafin Radi"
-              };
+            //Console.WriteLine("Single Dimension Array Sample");
+            //// Single dimensional array  
+            //string[] friends = new string[]
+            //  {
+            //        "Mst Bithy",
+            //        "Shammi",
+            //        "Nafiya Nitu",
+            //        "Suparna Sarker",
+            //        "Rafin Radi"
+            //  };
 
-            // Read array items using foreach loop  
-            foreach (string name in friends)
-            {
-                Console.WriteLine(name);
-            }
-            Console.WriteLine("-----------------------------");
+            //// Read array items using foreach loop  
+            //foreach (string name in friends)
+            //{
+            //    Console.WriteLine(name);
+            //}
+            //Console.WriteLine("-----------------------------");
 
-            Console.WriteLine("Multi-Dimension Array Sample");
-            string[,] string2DArray = new string[2, 2]
-            {
-                {"Nitu", "Trisha"},
+            //Console.WriteLine("Multi-Dimension Array Sample");
+            //string[,] string2DArray = new string[3, 3]
+            //{
+            //    {"Nitu", "Trisha","Shammi"},
 
-                {"Shuvo",  "Bithy"}
-            };
+            //    {"Shuvo",  "Bithy","Shammi"},
 
-            foreach (string str in string2DArray)
-            {
-                Console.WriteLine(str);
-            }
-            Console.WriteLine("-----------------------------");
+            //    {"Shuvo",  "Bithy","Monisha"}
+            //};
 
-            Console.WriteLine("Jagged Array Sample");
+            //foreach (string str in string2DArray)
+            //{
+            //    Console.WriteLine(str);
+            //}
+            //Console.WriteLine("-----------------------------");
 
-            int[][] intJaggedArray3 = {
-                new int[] { 2, 12},
-                new int[] {14, 14, 24, 34},
-                new int[] {6, 16, 26, 36, 46, 56 }
-             };
 
-            // Loop through all itesm of a jagged array  
-            for (int i = 0; i < intJaggedArray3.Length; i++)
-            {
-                Console.Write($"Element({i}): ");
-                for (int j = 0; j < intJaggedArray3[i].Length; j++)
-                {
-                    Console.Write($"{intJaggedArray3[i][j]} ");
-                }
-                Console.WriteLine();
-            }
-            Console.WriteLine("-----------------------------");
+            //Console.WriteLine("Jagged Array Sample");
+
+            //int[][] intJaggedArray3 = {  new int[] { 2, 12},
+               
+            //    new int[] {14, 14, 24, 34},
+            //    new int[] {6, 16, 26, 36, 46, 56 }
+            // };
+
+            //// Loop through all items of a jagged array  
+            //for (int i = 0; i < intJaggedArray3.Length; i++)
+            //{
+            //    Console.Write($"Element({i}): ");
+            //    for (int j = 0; j < intJaggedArray3[i].Length; j++)
+            //    {
+            //        Console.Write($"{intJaggedArray3[i][j]} ");
+            //    }
+            //    Console.WriteLine();
+            //}
+            //Console.WriteLine("-----------------------------");
 
 
             Console.ReadLine();

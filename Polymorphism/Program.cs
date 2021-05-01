@@ -8,8 +8,9 @@ namespace Polymorphism
 {
     /*==================================================================================================
      * Polymorphism provides the ability to a class to have multiple implementation with the same name
-     * 1. Static/Compile Time - (Method Overloading)     2. Dynamic/Runtime - (Method Overriding)
-     * Method Overriding Canbe done by usign Inheritance
+     
+     1. Static/Compile Time - (Method Overloading)     2. Dynamic/Runtime - (Method Overriding)
+     * Method Overriding Can be done by using Inheritance
      * With method overriding, we can override the method of ParentClass with same method of ChildClass
      
      #Conditions For Method Overriding:

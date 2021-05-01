@@ -31,7 +31,7 @@ namespace Interfaces
         }
 
         /*===============Main Method============*/
-        /*
+        
         static void Main(string[] args)
         {
             Student students = new Student();
@@ -62,6 +62,6 @@ namespace Interfaces
 
             Console.ReadLine();
         }
-        */
+        
     }
 }

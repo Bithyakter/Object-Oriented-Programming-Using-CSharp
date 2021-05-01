@@ -6,12 +6,19 @@ using System.Threading.Tasks;
 
 namespace AccessModifiers
 {
+    /*===========================================================================
+   Access Modifiers in C# are the keywords used to define the visibility of a class property or method.
+   C# has 5 Access Modifier keywords:
+       1. public: Public class is visible in the current and referencing assembly.
+       2. private: Visible inside current class.
+       3. protected: Visible inside current and derived class.
+       4. Internal: Visible inside containing assembly.
+       5. Internal protected: Visible inside containing assembly and descendent of the current class.
 
-    /*----------------------------
      * Classes will never be private or protected
      * By default Class is Internal
      * By default Method is Private
-     ----------------------------*/
+     ===========================================================================*/
 
     class Program
     {
@@ -69,7 +76,6 @@ namespace AccessModifiers
 
             Console.ReadLine();
         }
-
 
     }
     #endregion

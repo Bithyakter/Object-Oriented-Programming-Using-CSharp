@@ -1,37 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Method
 {
     class Program
     {
-        /*=======================================================Method=========================================================*/
-
-        public static int result = 0;               //Global scope variable
-
-        static void Main(string[] args)
+        /*===================================Method===========================================*/
+        /*-------------------------------
+         * Method are also called function. 
+         * Method are useful because it allow us to define our logic once and use it at many places.
+         * If two methods having the same name but different parameters then it called method overloading
+         
+        <Access specifier> <returnType> <methodName>(parameterList)
         {
-            //print full name
-            PrintFullName(FirstName: "Shammi", LastName: "Ahmed");        //Named Arguments
-            PrintFullName("Nafiya");
-
-            //Product Details
-            ProductDetails(ProductName: "Computer", ProductPrice: 1500, ProductCategory: "Electronics");  //Named Arguments
-            ProductDetails(ProductName: "Coffee", ProductPrice: 1200);
-
-            //Method Overloading
-            GetValue(80, 20);
-            Console.WriteLine("Sum of Two Number: " + result);            // global variable can be accessible
-
-            GetValue(50, 30, 40);
-            Console.WriteLine("Sum of Three Number: " + result);           //Global variable can be access from here
-
-            Console.ReadLine();
+            //Method Body
         }
-
+         -------------------------------*/
+        public static int result = 0;               //Global scope variable
 
         #region     //Print Full Name with optional parameter
 
@@ -54,7 +38,6 @@ namespace Method
 
 
         #region     //Method Overloading with Local Scope
-
         public static void GetValue(int number1, int number2)                //Method
         {
             int TotalNumber = number1 + number2;                              //TotalNumber is Local Scope Variable
@@ -71,6 +54,25 @@ namespace Method
 
         #endregion
 
+        static void Main(string[] args)
+        {
+            //print full name
+            PrintFullName(FirstName: "Shammi", LastName: "Ahmed");        //Named Arguments
+            PrintFullName("Nafiya");
+
+            //Product Details
+            ProductDetails(ProductName: "Computer", ProductPrice: 1500, ProductCategory: "Electronics");  //Named Arguments
+            ProductDetails(ProductName: "Coffee", ProductPrice: 1200);
+
+            //Method Overloading
+            GetValue(80, 20);
+            Console.WriteLine("Sum of Two Number: " + result);            // global variable can be accessible
+
+            GetValue(50, 30, 40);
+            Console.WriteLine("Sum of Three Number: " + result);           //Global variable can be access from here
+
+            Console.ReadLine();
+        }
     }
 }
 

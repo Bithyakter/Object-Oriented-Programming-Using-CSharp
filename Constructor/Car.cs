@@ -12,13 +12,13 @@
         }
         public Car(string model, int year)        //Parameterized Constructor
         {
-            carModel = model;
-            carYear = year;
+            this.carModel = model;
+            this.carYear = year;
         }
 
         public Car(int year, string model, int wheel)     //Overloaded Constructor
         {
-            carModel = model;
+            this.carModel = model;
             carYear = year;
             carWheels = wheel;
         }

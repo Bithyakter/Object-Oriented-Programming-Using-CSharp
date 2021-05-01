@@ -26,7 +26,7 @@ namespace OOP_CSharp
 
             #region 03 Calling For Employee Class
 
-            Employee emp = new Employee(1263995, "Bithy");           //instant class
+            Employee emp = new Employee(1263995, "Bithy");           //instance class
             Console.WriteLine("ID = {0}, Name = {1}", emp.ID, emp.Name);
 
             #endregion

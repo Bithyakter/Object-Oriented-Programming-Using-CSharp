@@ -17,8 +17,8 @@ namespace Interfaces
         2.Not allowed to define any constructor/desturctor in interafce
         3.Cann't specify any access Modifier, implicitly public
         4.Not allowed to inherite from a  class/structure
-     ================================================================================================*/
-    interface ICustomer     //cann't specify any access modifier
+     ===================================================================================================*/
+     interface ICustomer    //cann't specify any access modifier
     {
         //int ID;       //interface cann't contains field,get an compile time error
 
@@ -29,6 +29,7 @@ namespace Interfaces
 
         void CustomerInfo();    //no need to specify implementation, it's only declaration
     }
+
 
     interface ICustomer2
     {
