@@ -108,5 +108,28 @@ Learn Object Oriented Programming(OOP) Using C# with Examples
         3.Cann't specify any access Modifier, implicitly public
         4.Not allowed to inherite from a  class/structure
     
-        
+     ================================Abstraction======================================
+     
+     Data abstraction is the process of hiding certain details and showing only essential information to the user.
+     Abstraction can be achieved with either abstract classes or interfaces.
+
+     * An abstract class is a special class we can't be instantiated.
+     * An abstract keyword is used to create abstract classes.
+     * We can use an abstract class as a base class only.
+     
+     Abstract Method:
+     * An abstract method is a method without any method body. 
+     * can only be used in an abstract class
+     
+     Contents:
+        1. An abstract class may contains abstract members,property,event
+        2. An abstract class can only be a base class
+        3. A non-abstract class can inherite from an abstract class but must provide implementation
+        4. If the class doesn't wish implementation,then the class has to be marked as abstract.
+        5. To provide the implementation, have to use the override keyword.
+        6. An abstract class cann't be sealed.
+        7. Cann't create an object.
+        8. Abstract class cann't support multiple inheritances
+        9. An abstract class can inherit from a class and one or more interfaces.  
+
         
